@@ -1,0 +1,45 @@
+header{
+    background-image: url("https://www.everycar.jp/blog/wp-content/uploads/800px-Nissan_Skyline_R34_GT-R_Nur_001.jpg");
+    color: black;
+    text-align: center;
+    height: 450px;
+}
+
+header h1{
+    font-size: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu-item {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blueviolet;
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+.menu-item:hover{
+    background-color: rgb(65, 150, 197)
+}
+
+footer{
+    background-image: url(https://www.gran-turismo.com/gtsport/livery/4972612873803040272_23.jpg);
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(43, 43, 116);
+    color: white;
+}
